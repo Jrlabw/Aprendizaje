@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="logo navbar-brand" href="#">
+                    <img class="escudo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Escudo_de_la_Federaci%C3%B3n_Colombiana_de_F%C3%BAtbol.png/1200px-Escudo_de_la_Federaci%C3%B3n_Colombiana_de_F%C3%BAtbol.png" alt="logo" width="60" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-dark">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                        </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Informacion
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://es.wikipedia.org/wiki/Anexo:Partidos_de_la_selecci%C3%B3n_de_f%C3%BAtbol_de_Colombia">Historico de partidos</a></li>
+                                <li><a class="dropdown-item" href="https://fcf.com.co/">FCF</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="iniciar sesion.html">Iniciar Sesión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="registrarse.html">Registrate</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="inputsearch form-control me-2 bg-light" type="search" placeholder="Search" aria-label="Search" style="color: black;" />
+                        <button class="btn btn-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" style="margin: 10vh;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://olimpicocol.co/web/wp-content/uploads/2025/07/Colombia-calsifica-a-los-Juegos-Olimpicos-de-Los-Angeles-2028-finalista-de-la-Copa-America-2025.-Foto-Federacion-Colombiana-de-Futbol--1536x864.jpg" class="d-block w-100" alt="futbol femenino">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://fcf.com.co/wp-content/uploads/2025/03/Web-Convocatoria-de-la-Seleccion-Colombia-de-Mayores-para-las-fechas-13-y-14-1024x576.jpeg" class="d-block w-100" alt="foto seleccion 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://web.tuboleta.com/images/Eventos/eliminatorias-seleccion-colombia/assets/img/hero.webp" class="d-block w-100" alt="foto seleccion 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section>
+            <table class="table table-hover">
+                <thead>
+                    <tr class="encabezado-negro">
+                        <th scope="col">COMPETENCIA</th>
+                        <th scope="col">Fecha y Hora</th>
+                        <th scope="col">Partido</th>
+                        <th scope="col">Precio</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td scope="row">COMPETENCIA FECHA HORA PARTIDO INSTANCIA SELECCIÓN COPA MUNDIAL MASCULINA SUB20 DE LA FIFA</td>
+                        <td>22/10/2025 2:00 pm</td>
+                        <td>COLOMBIA VS. COSTA DE MARFIL</td>
+                        <td>200.000</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">AMISTOSOS INTERNACIONALES</td>
+                        <td>15/11/2025 6:00 pm</td>
+                        <td>COLOMBIA VS. PERÚL</td>
+                        <td>200.000</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">COPA MUNDIAL MASCULINA SUB17 DE LA FIFA</td>
+                        <td>25/10/2025 6:00 pm</td>
+                        <td>COLOMBIA VS. ALEMANIA</td>
+                        <td>250.000</td>
+                    </tr>    
+                    <tr>
+                        <td scope="row">AMISTOSOS INTERNACIONALES</td>
+                        <td>3/12/2025 6:00 pm</td>
+                        <td>COLOMBIA VS. CANADÁ</td>
+                        <td>150.000</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">COPA MUNDIAL DE FUTBOL DE PLAYA</td>
+                        <td>15/11/2025 4:00 pm</td>
+                        <td>COLOMBIA VS. Bolivia</td>
+                        <td>100.000</td>
+                    </tr>
+                    </tbody>
+            </table>
+        </section>
+        <hr>
+        <section>
+            <div class="d-grid gap-2 col-6 mx-auto p-3">
+                <a href="iniciar sesion.html" class="d-grid gap-2 col-6 mx-auto p-3">
+                <button class="btn btn-primary" type="button">COMPRA TU BOLETA</button>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8"><img src="https://fcf.com.co/wp-content/uploads/2023/04/Logo-700px-blanco.png"></a></div>
+                <div class="col-4 d-flex align-items-center">
+                    <ul>
+                        <li class="m-3">
+                            <i class="bi bi-instagram"> INSTRAGRAM</i>
+                    
+                        </li>
+                        <li class="m-3">
+                            <i class="bi bi-twitter"> TWITTER</i>
+                        </li>
+                        <li class="m-3">
+                            <i class="bi bi-facebook"> FACEBOOK</i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p>Copyright © 2023 FCF Federación Colombiana de Fútbol <a href="https://asweb.co">Desarrollo Web&nbsp; Colombia Aitech – Asweb.co</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+</body>
+
+</html>
